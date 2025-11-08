@@ -11,9 +11,18 @@ const Service = () => {
             <img src={theme_pattern} alt="" />
         </div>
         <div className="services-container">
-            {Services_Data.map((service,index)=>{
-                return  <img key={index} src={service.skill_img} alt="" />
-            })}
+          {Services_Data.map((service, index) => {
+            return (
+              <a 
+                key={index} 
+                href={service.url} 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <img src={service.skill_img} alt="" />
+              </a>
+            );
+          })}
         </div>
     </div>
   )
