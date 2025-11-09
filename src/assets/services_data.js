@@ -1,13 +1,13 @@
 import html_img from '../assets/html.png'
 import css_img from '../assets/css.png'
-import boostrap_img from '../assets/bootstrap.jpg'
-import js_img from '../assets/js.jpeg'
+import boostrap_img from '../assets/bootstrap.png'
+import js_img from '../assets/js.png'
 import sql_img from '../assets/sql.png'
-import php_img from '../assets/php.jpeg'
+import php_img from '../assets/php.png'
 import react_img from '../assets/react.png'
 import node_img from '../assets/node.png'
 import mongodb_img from '../assets/mongodb.png'
-import laravel_img from '../assets/laravel.jpeg'
+import laravel_img from '../assets/laravel.png'
 import express_img from '../assets/express.png'
 
 const Services_Data = [
